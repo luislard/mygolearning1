@@ -21,5 +21,8 @@ func foo() {
 }
 
 func bar() {
-	fmt.Println("and we exited!")
+	n, err := fmt.Println("and we exited!", 42, true)
+	fmt.Println("bites written", n)
+	fmt.Println("error?", err)
+	
 }
