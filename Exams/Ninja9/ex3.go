@@ -6,7 +6,8 @@ import (
 	"sync"
 )
 
-/**
+/*
+*
 Create something with race condition
 */
 func main() {
